@@ -7,7 +7,7 @@ int fatorial (int n){
     for(i=1;i<=n;i++){
         fat=fat*i;
     };
-    return printf("Fatorial de %d = %d", n, fat);
+    return fat;
 };
 
 int main(){
